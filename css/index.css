@@ -156,7 +156,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 #navTop {width: 100%; height: 60px;}
 #navTop_box {width: 90%; height: 60px;}
 #navTop_box #logo {width: 200px;}
-#navTop_box #logo > div {width: 60px; line-height: 60px;}
+#navTop_box #logo > div {width: 100px; line-height: 60px;}
 #navTop_box #logo > div > img {width: 90%;}
 #navTop_box #logo > span {font-size: 12px; top: 32px; left: 5px;}
 #navTop_box #topMenu li {padding-left: 25px; line-height: 60px;}
@@ -257,7 +257,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 @media screen and (max-width:767px) {
 #navTop {width: 100%; height: 50px;}
 #navTop_box {width: 90%; height: 50px;}
-#navTop_box #logo > div {width: 50px; line-height: 50px;}
+#navTop_box #logo > div {width: 100px; line-height: 50px;}
 #navTop_box #logo > div > img {width: 90%;}
 #navTop_box #logo > span {display: none;}
 #navTop_box #topMenu li {padding-left: 10px; line-height: 50px;}
@@ -324,14 +324,14 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
     
 /*s2*/
 .skill_wrapper {display: grid; grid-template-columns: 100%; grid-template-rows: 70px 70px 70px 70px 90px 60px; padding-top: 20px;}
-.skill_wrapper {display: -ms-grid;display: grid; -ms-grid-columns: 100%; grid-template-columns: 100%; -ms-grid-rows: 70px 70px 70px 70px 90px 60px; grid-template-rows: 70px 70px 70px 70px 90px 60px; padding-top: 20px;}.skill_wrapper > *:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(2) {-ms-grid-row: 2;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(3) {-ms-grid-row: 3;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(4) {-ms-grid-row: 4;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(5) {-ms-grid-row: 5;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(6) {-ms-grid-row: 6;-ms-grid-column: 1;}
+.skill_wrapper {display: -ms-grid;display: grid; -ms-grid-columns: 100%; grid-template-columns: 100%; -ms-grid-rows: 70px 70px 70px 70px 90px 60px; grid-template-rows: 75px 75px 95px 95px 95px; padding-top: 20px;}.skill_wrapper > *:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(2) {-ms-grid-row: 2;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(3) {-ms-grid-row: 3;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(4) {-ms-grid-row: 4;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(5) {-ms-grid-row: 5;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(6) {-ms-grid-row: 6;-ms-grid-column: 1;}
 .skill_item {border: 0;}
 .skill_item .sk_title {font-size: 14px; padding: 7px; margin: 0px; text-align: left;}
 .skill_item .sk_txt_box {width: 100%; height: 0px; padding: 0px;}
 .skill_item .sk_txt_box .sk_txt1 {display: none;}
 .skill_item .sk_txt_box .graph {display: block; width: 100%; height: 22px; border: 1px solid  #4eafce; margin-top: 9px; padding: 4px 0px;}
 .skill_item .sk_txt_box .graph_bar {height: 11px; background: #4eafce;}
-.skill_item .sk_txt_box .sk_txt2 li {float: left; width: 50%;  padding: 2px 5px; line-height: 1; font-size: 13px;}
+.skill_item .sk_txt_box .sk_txt2 li {float: left; width: 50%;  padding: 5px 5px; line-height: 1; font-size: 13px;}
 .skill_item .sk_txt_box .sk_txt2 li img {padding-right: 7px; width: 21px;}
 .skill_item .sk_txt_box .sk_txt_office {height: 60px;}
 .skill_item .sk_txt_box .sk_txt_design {height: 30px;}
